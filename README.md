@@ -133,10 +133,3 @@ export default {
 - Packages like [serialport](https://www.npmjs.com/package/serialport), [sqlite3](https://www.npmjs.com/package/sqlite3) are node-native modules and should be placed in `dependencies`. Vite will not build them and will treat them as externals.
 
 - Packages like [vue](https://www.npmjs.com/package/vue), [react](https://www.npmjs.com/package/react) are pure javascript modules and can be built with Vite. They can be listed in `devDependencies` which helps reducing the size of bundled product.
-
-## Main window
-<img width="400px" src="https://raw.githubusercontent.com/caoxiemeihao/blog/main/electron-vue-vite/screenshot/electron-15.png" />
-
-## Wechat
-
-<img width="244px" src="https://raw.githubusercontent.com/caoxiemeihao/blog/main/assets/wechat/group/qrcode.jpg" />
